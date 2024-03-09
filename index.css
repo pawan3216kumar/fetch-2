@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(38, 106, 106);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-gap: 20px;
+
+  }
+
+  #container > div {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+
+  }
+
+  img {
+    width: 90%;
+    height: 225px;
+    padding-top: 10px;
+     
+  }
+
+  h1{
+    text-align: center;
+    color: rgb(65, 236, 46);
+  }
